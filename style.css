@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    height: 61.5vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.header-title   {
+    height: 100%;
+    width: 50%;
+    color: white;
+}
