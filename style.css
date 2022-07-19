@@ -5,14 +5,14 @@
 }
 
 /* Header Section */
-.container {
+.header-container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-container {
+.header-content {
     height: 61.5vh;
     width: 80%;
     display: flex;
@@ -20,10 +20,37 @@
     padding: 50px 80px;
     border-radius: 10px;
     background-color: black;
-
 }
 .header-title   {
     height: 100%;
     width: 50%;
     color: white;
+}
+
+/* Main section start */
+
+.main-content   {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.main-container {
+    width: 80%;
+    display: flex;
+    background-color: lightblue;
+
+}
+.menu-section   {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: gray;
+}
+.blog-section   {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
 }
