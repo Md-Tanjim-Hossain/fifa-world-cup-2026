@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
+/* Header Section Start */
 .header-container {
     height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
 }
-
 .header-content {
     height: 80vh;
     width: 80%;
@@ -44,60 +44,95 @@
     color: white;
     text-decoration: none;
 }
-
 .header-image   {
     height: 100%;
     width: 50%;
     display: flex;
     justify-content:end;
 }
+/* Header Section End  */
+/* ------------------- */
 
 /* Main section start */
-
 .main-content   {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: brown; */
 }
 .main-container {
     width: 80%;
     display: flex;
     justify-content: center;
-    
-    /* background-color: lightblue; */
 }
 .menu-section   {
     width: 500px;
     height: 266px;
     margin-right: 20px;
     border-radius: 10px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-items: center; */
     background-color: black;
 }
 .menu-button    {
     padding: 15px;
-    margin: 30px;
-    
+    margin: 30px;    
     text-align: center;
     border-radius: 10px;
     background-color: white;
 }
 .menu-button a  {
     text-decoration: none;
+    color: black;
 }
+/* Main Section End  */
+/* ----------------- */
 
-/* ----Blog Section---  */
-
+/* Blog Section Start  */
 .blog-section   {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
-    /* justify-content: space-between; */
 }
 .blog {
    margin-bottom: 20px;
-} 
+}
+/* Blog Section End  */
+/* ----------------- */
+
+/* Footer Section Start  */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.footer-content{
+    width: 70%;
+    text-align: center;
+    background-color: black;
+}
+.footer-text   {
+    color: white;
+    padding: 60px 0 50px;
+}
+.h-line {
+    width: 100%;
+    border-color: rgb(74, 73, 73);
+}
+.footer-info   {
+    width: 100%;
+    color: rgba(245, 245, 245, 0.625);
+    padding: 30px 0 40px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer-social-site    {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer-social-site img {
+    width: 36px;
+    height: 36px;
+}
+/* Footer Section End */
+/* ------------------ */
