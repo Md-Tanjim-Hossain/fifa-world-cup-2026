@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
 
 /* Header Section Start */
 .header-container {
@@ -16,7 +18,7 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
-    padding: 50px 80px 0 80px;
+    padding: 50px 50px 0 80px;
     border-radius: 10px;
     background-color: black;
 }
@@ -26,10 +28,15 @@
     color: white;
 }
 .header-title h1    {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-title span  {
+    color: red;
 }
 .header-title p {
     padding: 25px  0;
+    font-family: 'Poppins', sans-serif;
 }
 .header-button  {
     margin-top: 25px;
@@ -66,7 +73,7 @@
 }
 .menu-section   {
     width: 500px;
-    height: 266px;
+    height: 285px;
     margin-right: 20px;
     border-radius: 10px;
     background-color: black;
@@ -95,7 +102,36 @@
 .blog {
    margin-bottom: 20px;
 }
+.blog-text  {
+    padding: 10px 15px 0;
+}
+.blog-text  button  {
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: lightgray;
+}
+.blog-info  {
+    display: flex;
+    padding-top: 10px;
+}
 /* Blog Section End  */
+/* ----------------- */
+
+/* Bonus Section Start */
+.bonus-content  {
+    text-align: center;
+    display: none;
+}
+.bonus-button   {
+    background-color: red;
+    padding: 15px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    display: inline-block;
+}
+/* Bonus Section End  */
 /* ----------------- */
 
 /* Footer Section Start  */
