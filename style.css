@@ -58,24 +58,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    /* background-color: brown; */
 }
 .main-container {
     width: 80%;
     display: flex;
-    background-color: lightblue;
+    justify-content: center;
+    
+    /* background-color: lightblue; */
 }
 .menu-section   {
     width: 500px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    background-color: gray;
+    height: 266px;
+    margin-right: 20px;
+    border-radius: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-items: center; */
+    background-color: black;
 }
+.menu-button    {
+    padding: 15px;
+    margin: 30px;
+    
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.menu-button a  {
+    text-decoration: none;
+}
+
+/* ----Blog Section---  */
+
 .blog-section   {
-    width: 100%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
+    column-gap: 10px;
+    /* justify-content: space-between; */
 }
+.blog {
+   margin-bottom: 20px;
+} 
