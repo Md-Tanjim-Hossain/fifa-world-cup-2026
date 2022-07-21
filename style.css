@@ -42,7 +42,7 @@
     margin-top: 25px;
     display:inline-flex;
     column-gap: 15px;
-    padding: 15px 20px;
+    padding: 15px 25px;
     border-radius: 10px;
     background-color: red;
 }
@@ -172,3 +172,20 @@
 }
 /* Footer Section End */
 /* ------------------ */
+
+
+/* ----------------------------------
+-----------Upcoming Match------------ 
+-------------------------------------*/
+.blog-content   {
+    
+}
+.blog-flag  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-text  {
+    text-align: center;
+    padding-top: 0;
+}
